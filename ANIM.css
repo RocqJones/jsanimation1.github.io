@@ -1,0 +1,40 @@
+body{
+  margin:0;
+  font-family: cursive;
+}
+.polymorph{
+  fill: #0D7C16;
+}
+/*butn styling here for both buttons*/
+#butn, #butn1 {
+  position: absolute;
+  margin: 10em auto 0 auto;
+  left: 0; right: 0; width: 30%; background: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 15px;
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+  outline: 0;
+}
+
+p{
+  font-size: 1.2em;
+}
+
+#butn1{
+  width: auto;
+  margin: 30px auto;
+  background: #0D7C16;
+}
+
+#blip{
+  position: absolute;
+  color: #0D7C16;
+  right: 25%;
+  top: 0;
+  opacity: 0;
+  width: 30%;
+  transform: translateY(-800px);
+}
